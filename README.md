@@ -23,7 +23,7 @@
   Além disso, o BulkZap oferece recursos avançados, como a possibilidade de enviar mensagens agendadas e criar fluxos de conversas automatizadas.
 </p>
 
-<img align="center" src="imagen/aplication.png" alt="Descrição da imagem">
+<img align="center" src="imagem/aplication.png" alt="Descrição da imagem">
 
 <h2>Instalação</h2>
 
@@ -31,11 +31,15 @@ Para instalar a extensão, siga as seguintes instruções:
 
 1. Faça o download do repositório em formato .zip ou clone o projeto usando o Git
 2. Extraia o arquivo .zip, se necessário
-3. Abra o Google Chrome e vá em "Configurações"
-4. Clique em "Extensões"
-5. Ative o "Modo do desenvolvedor"
-6. Clique em "Carregar sem compactação"
-7. Selecione a pasta extraída do projeto
+3. Certifique-se de que o Node.js esteja instalado em seu sistema. Caso contrário, faça o download e instale a versão mais recente do Node.js a partir do site oficial: https://nodejs.org/
+4. Abra o terminal e navegue até a pasta raiz do projeto
+5. Execute o comando "npm install" para instalar as dependências do projeto
+6. Execute o comando "npm run build" para gerar o build da extensão
+7. Abra o Google Chrome e vá em "Configurações"
+8. Clique em "Extensões"
+9. Ative o "Modo do desenvolvedor"
+10. Clique em "Carregar sem compactação"
+11. Selecione a pasta "build" do projeto
 
 <h2>Uso</h2>
 
