@@ -1,6 +1,7 @@
 <h1>BulkZap - Envie mensagens, botões e mídias pelo WhatsApp</h1>
 
 <p align="center">
+  ![npm](https://img.shields.io/npm/v/bulkzap?color=green&style=flat-square)
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/boinaweb/BulkZap?color=green">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/boinaweb/BulkZap?color=green">
   <img alt="Stars" src="https://img.shields.io/github/stars/boinaweb/BulkZap?color=green">
