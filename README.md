@@ -23,7 +23,7 @@
   Além disso, o BulkZap oferece recursos avançados, como a possibilidade de enviar mensagens agendadas e criar fluxos de conversas automatizadas.
 </p>
 
-<img align="center" src="imagem/aplication.png" alt="Descrição da imagem">
+<img align="center" src="imagen/aplication.png" alt="Descrição da imagem">
 
 <h2>Instalação</h2>
 
