@@ -1,0 +1,408 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+@font-face {
+  font-family: "Untlang";
+  src: url(../fonts/Untlang.ttf);
+}
+
+@font-face {
+  font-family: "Honey";
+  src: url(../fonts/Honey\ Bear.ttf);
+}
+
+.nav .title a{
+  font-family: "Honey", sans-serif;
+  color: white;
+  font-size: 15px;
+  width: auto;
+}
+
+.msgsendlbl{
+  padding: 10px;
+}
+
+.nav{
+  position: relative;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 50px;
+}
+
+.title .logo{
+  height: 30px;
+  width: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title{
+    float: left;
+    align-items: center;
+    color: white;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 50px;
+}
+
+.title a{
+  color: black;
+}
+
+.optionsend .radiosendstyle{
+  margin: 10px;
+}
+
+.optionsend{
+  position: relative;
+  text-align: center;
+  float: right;
+  padding: 5px;
+  height: 400px;
+  width: 330px;
+  color: white;
+  background-color: transparent;
+}
+
+.optionsend fieldset{
+  height: 388px;
+}
+
+.nav{
+    align-items: center;
+}
+
+.delaypanel{
+  color:white;
+}
+
+.delaypanel fieldset{
+  width: auto;
+  height: auto;
+}
+
+.leftpanel fieldset .textarea_style{
+  width: 100%;
+}
+
+.leftpanel fieldset{
+  height: 388px;
+}
+
+.leftpanel{
+  height: 400px;
+  width: 330px;
+  color: white;
+  padding: 5px;
+  position: absolute;
+  align-items: center;
+  background-color: transparent;
+}
+
+.panelMedias{
+  background-color: #cdcace;
+  height: 150px;
+  width: 100%;
+  align-items: center;
+}
+
+.fieldmsg{
+  color: white;
+  border: 1px solid #ddd;
+  padding: 0 1.4em 1.4em 1.4em;
+  margin: 0 0 1.5em 0;
+  border-radius: 8px;
+  margin: 0 5px;
+}
+
+.leftpanel fieldset .textarea_style textarea{
+  width: 100%;
+  height: 143px;
+  margin-bottom: 14px;
+  border-radius: 8px;
+  padding: 8px;
+  color: white;
+  background-color: slategrey;
+}
+
+.leftpanel fieldset .textarea_style textarea::-webkit-input-placeholder {
+  color: rgb(187, 185, 185);;
+  padding: 1px;
+}
+
+input[type="radio"] {
+  display:none;
+}
+
+input[type="radio"] + label {
+  color:#f2f2f2;
+  font-family:Arial, sans-serif;
+  font-size:14px;
+}
+
+input[type="radio"] + label span {
+  display:inline-block;
+  width:19px;
+  height:19px;
+  margin:-1px 4px 0 0;
+  vertical-align:middle;
+  background:url(http://webdesigntutsplus.s3.amazonaws.com/tuts/391_checkboxes/check_radio_sheet.png) -38px top no-repeat;
+  cursor:pointer;
+}
+
+input[type="radio"]:checked + label span {
+  background:url(http://webdesigntutsplus.s3.amazonaws.com/tuts/391_checkboxes/check_radio_sheet.png) -57px top no-repeat;
+}
+
+select{
+  background-color: #282930;
+  border: 1px solid #666666;
+  padding: 2px;
+  color: white;
+}
+
+#msgToSend{
+  outline: none;
+  border: none;
+  resize: none;
+}
+
+#numberslist{
+  outline: none;
+  border: none;
+  resize: none;
+}
+/* init input number */
+input[type=number]{
+  background-color: #282930;
+  border: 1px solid #666666;
+  color: #FFFFFF;
+  text-align: center;
+  border-radius: 4px;
+  padding: 2px 4px;
+  font-size: 11px;
+  width: 60px;
+  height: 40px;
+}
+
+input[type=number]:hover{
+  background-color: #cfcdcd;
+  color: #282930;
+  border: 1px solid #282930;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/* finish input number */
+
+.maxsendspanel fieldset{
+  height: auto;
+  width: auto;
+  margin: 10px;
+}
+
+
+input[type="checkbox"] {
+  display:none;
+}
+input[type="checkbox"] + label {
+  color:#f2f2f2;
+  font-family:Arial, sans-serif;
+  font-size:14px;
+}
+input[type="checkbox"] + label span {
+  display:inline-block;
+  width:19px;
+  height:19px;
+  margin:-1px 4px 0 0;
+  vertical-align:middle;
+  background:url(http://webdesigntutsplus.s3.amazonaws.com/tuts/391_checkboxes/check_radio_sheet.png) -0px top no-repeat;
+  cursor:pointer;
+}
+input[type="checkbox"]:checked + label span {
+  background:url(http://webdesigntutsplus.s3.amazonaws.com/tuts/391_checkboxes/check_radio_sheet.png) -19px top no-repeat;
+}
+
+.checkpanelautosend{
+  padding: 10px;
+}
+
+#autosend{
+  padding-top: 10px;
+  align-items: center;
+  width: 100%;
+  height: 320px;
+  background-color: slategrey;
+}
+
+#select-type-button-send{
+  height: auto;
+  width: 100px;
+}
+
+#manualsend{
+  align-items: center;
+  width: 100%;
+  height: 330px;
+  background-color: slategrey;
+}
+
+#frame-button-visible{
+  height: 183px;
+}
+
+#manualsend .textarea_style_manual textarea{
+  width: 280px;
+  height: 280px;
+  margin: 10px;
+  float:left;
+  border-radius: 8px;
+  position: relative;
+  padding: 8px;
+  color: white;
+  background-color: #282930;
+}
+
+#manualsend .textarea_style_manual textarea::-webkit-input-placeholder {
+  color: rgb(187, 185, 185);
+  padding: 1px;
+}
+
+#time{
+  width: 50px;
+}
+#quant{
+  width: 50px;
+}
+.sendbuttonspanel{
+  position: absolute; bottom: 0px; right: 0px;
+  margin: 10px;
+  width: 100%;
+}
+.versao{
+  color: white;
+}
+
+.filepanel{
+  background-color: #808080;
+}
+
+.filepanel .radiomodesendstyle{
+  padding: 5px;
+  height: 6px;
+}
+
+label{
+  color: white;
+}
+html{
+    height: 560px;
+    width: 700px;
+    background-color: #4D4D4D;
+    text-align: center;
+    padding: 10px;
+}
+a.button2{
+display:inline-block;
+padding:0.35em 1.2em;
+border:0.1em solid #1bbd58;
+margin:0 0.3em 0.3em 0;
+border-radius:0.12em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#1bbd58;
+text-align:center;
+transition: all 0.2s;
+}
+
+a.button2:hover{
+color:white;
+background-color:#1bbd58;
+}
+
+@media all and (max-width:30em){
+ a.button2{
+display:block;
+margin:0.4em auto;
+ }
+}
+
+a.button1{
+display:inline-block;
+padding:0.35em 1.2em;
+border:0.1em solid #bc2bff;
+margin:0 0.3em 0.3em 0;
+border-radius:0.12em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#bc2bff;
+text-align:center;
+transition: all 0.2s;
+}
+
+a.button1:hover{
+color:white;
+background-color:#bc2bff;
+}
+
+@media all and (max-width:30em){
+ a.button1{
+display:block;
+margin:0.4em auto;
+ }
+}
+
+p,
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
+}
+
+.container{
+  position: absolute; bottom: 0px; left: 0px;
+  background-color: #282930;
+  color: #FFFFFF;
+  width: 200x;
+  height: 30px;
+  /*transform: translate(-50%,-50%);*/
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 9px 8px;
+  border-radius: 5px;
+  margin-left: 5%;
+}
+
+
+/* init input text */
+input[type=text]{
+  background-color: #282930;
+  border: 1px solid #666666;
+  color: #FFFFFF;
+  text-align: center;
+  border-radius: 4px;
+  padding: 2px 4px;
+  font-size: 11px;
+  height: 35px;
+}
+
+input[type=text]:hover{
+  background-color: #cfcdcd;
+  color: #282930;
+  border: 1px solid #282930;
+}
+
+input[type=text]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}

@@ -1,0 +1,45 @@
+{
+	"manifest_version": 2,
+	"name": "Boina Bot",
+	"version": "1.0.0",
+	"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+	
+	"description": "Chrome extension for bulk shipping",
+	"icons": {
+		"128": "icons/icon_128.png"
+	},
+	
+	"browser_action": {
+		"default_title": "Boina Bot",
+		"default_popup": "popup.html"
+	},
+	
+	"background": {
+		"persistent": true,
+		"scripts": ["js/jquery.js", "background.js"]
+	},
+	
+	"author": "BoinaWeb",
+	
+	"permissions": [
+		"activeTab",
+		"cookies",
+		"storage",
+		"webNavigation", 
+		"webRequest",
+		"tabs",
+		"notifications",
+		"https://web.whatsapp.com/*"
+	],
+	
+	"web_accessible_resources": [
+		"js/wapi.js",
+		"js/jquery.js",
+		"js/api.js",
+		"js/whatsapp.js",
+		"js/dom.js",
+		"css/styles.css",
+		"sounds/ring.mp3",
+		"images/wplogo.png"
+	]
+}

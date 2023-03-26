@@ -1,0 +1,111 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../css/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+	<br>
+	<div class="nav">
+		<div class="title">
+			<img class="logo" src="icons/icon_128.png">
+			<a>BoinaZap</a>
+		</div>
+	</div>
+
+	<div class="leftpanel">
+		<fieldset>
+			<legend>Message:</legend>
+			<div class="textarea_style">
+					<textarea id="msgToSend" rows="5" placeholder="Hello [[name]]!"></textarea>
+				</div>
+			<div class="filepanel">
+				<form name="formbtnmodesendratio" class="radiomodesendstyle">
+					<input type="radio" id="mediaframe" class="ratio1" name="sendratiomodesend" value="media" checked>
+				  	<label for="mediaframe"><span></span>Medias</label>
+					<input type="radio" id="buttonframe" name="sendratiomodesend" value="button">
+				  	<label for="buttonframe"><span></span>Buttons</label>
+				</form>
+				<div id="frame-media-visible">
+					<input type="file" id="files" name="files" />
+					<div class="panelMedias">
+						<img src="" style="height: 100%; display: none; margin: auto; width: auto;" id="imagemPronta"/>
+						<video src="" style="height: 150px; width: 300px; display: none;" id="videoPronto" controls></video>
+						<textarea id="base64" rows="5" style="display:none"></textarea>
+					</div>
+				</div>
+				<div id="frame-button-visible" hidden>
+					<div class="buttons-send-style">
+						<select name="select" id="select-type-button-send">
+							<option value="urlvalue-btnsend">URL</option>
+							<option value="phonevalue-btnsend">PHONE</option>
+							<option value="responsevalue-btnsend" selected>RESPONSE</option>
+						</select><br>
+						<input id="buttonsd1" type="text" placeholder="Enter the text"/>
+						<input id="buttonsd2" type="text" placeholder="Enter the text (Optional)"/>
+						<input id="buttonsd3" type="text" placeholder="Enter the text (Optional)"/>
+					</div>
+				</div>
+			</div>
+		</fieldset>
+	</div>
+
+	<div class="optionsend">
+		<fieldset>
+			<legend>Options:</legend>
+			<form name="formbtnratio" class="radiosendstyle">
+				<input type="radio" id="ativeautosend" class="ratio1" name="sendratio" value="Auto" checked>
+			  	<label for="ativeautosend"><span></span>Auto</label>
+				<input type="radio" id="ativemanualsend" name="sendratio" value="Manual">
+			  	<label for="ativemanualsend"><span></span>Manual</label>
+			</form>
+			<div id="autosend">
+				<h3>Sending automatic messages</h3>
+				<div class="maxsendspanel">
+					<fieldset>
+						<legend>Max. shipments</legend>
+						<input type="number" id="quant" value="350" name="quant"/>
+					</fieldset>
+				</div>
+				<div class="checkpanelautosend">
+					<input type="checkbox" id="naoHoje" checked name="naoHoje">
+					<label for="naoHoje"><span></span>Just the ones I haven't talked about today.</label>
+				</div>
+				<div>
+					<select name="select" id="quemVouMandar">
+						<option value="jaConversei" selected>I already talked</option>
+						<option value="jaConverseiContatoSalvo">Already Talked + Saved Contact</option>
+					</select>
+				</div>
+			</div>
+			<div id="manualsend" hidden>
+				<input type="file" id="inputCSV" accept=".csv">
+				<div class="textarea_style_manual">
+					<textarea id="numberslist" rows="5" placeholder="John,99999999999&#10;Paul,99999999999&#10;Jack,99999999999&#10;Emma,99999999999&#10;Stephany,99999999999"></textarea>
+				</div>
+			</div>
+		</fieldset>
+	</div>
+
+	<!--<div class="versao">
+		<span style="font-size: 18px;">Versão: <span id="verspan">&nbsp;</span></span>
+	</div>-->
+
+	<br><br>
+	<div class="sendbuttonspanel">
+		<div class="container">
+			<p>Delay</p>
+			<input type="range" id="my-slider" min="1" max="100" value="1">
+			<div id="slider-value">1</div>
+		</div>
+		<a href="#" class="button1" id="buttonAlls">Enviar</a>
+		<a href="#" class="button2" id="buttonWhatsapp">Open WhatsApp</a>
+	</div>
+	
+
+</body>
+
+<script src="popup.js"></script>
+</html>
