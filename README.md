@@ -23,6 +23,8 @@
   Além disso, o BulkZap oferece recursos avançados, como a possibilidade de enviar mensagens agendadas e criar fluxos de conversas automatizadas.
 </p>
 
+<img src="imagem/aplication.png" alt="Descrição da imagem">
+
 <h2>Instalação</h2>
 
 Para instalar a extensão, siga as seguintes instruções:
